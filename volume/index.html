@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        padding: 10px;
+      }
+      label {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Sine wave played through volume.dsp</h2>
+    <div>
+      <label>volume: </label>
+      <button id="decrease-volume">-</button>
+      <span id="show-volume"></span>
+      <button id="increase-volume">+</button>
+    </div>
+    <div>
+      <button id="start">start</button>
+      <button id="stop">stop</button>
+    </div>
+    <script src="./volume.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
